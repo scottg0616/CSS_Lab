@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat', Times, serif;
+    background-color: rgb(217, 217, 217);
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.readme-wrapper a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: purple;
+}
+
+.boxes {
+    margin: 3em;
+    padding: 2em;
+    border: 10px solid #009999;
+    border-radius: 20px;
+    width: 30em; 
+}
+
+#box1 {
+    background-color: rgb(153, 255, 204);
+}
+
+#box2 {
+    background-color: rgb(102, 255, 179);
+}
+
+#box3 {
+    background-color: rgb(51, 255, 153);
+}
+
+#box4 {
+    background-color: rgb(0, 230, 115)
+}
+
+.boxes {
+    display: block;
+}
+
+.circles {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 51, 51)
+}
+
+.circles {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+h1 {
+    color: rgb(102, 153, 255);
+}
+
+.original {
+    color: rgb(0, 153, 153);
+}
+
+.additional {
+    color: rgb(204, 102, 153);
+}
+
+#show1 {
+    color: rgb(153, 51, 102);
+}
+
+#show2 {
+    color: rgb(0, 102, 204);
+}
+
+#show3 {
+    color: rgb(0, 255, 0);
+}
+
+#show4 {
+    color: rgb(153, 51, 0);
+}
+
+#show5 {
+    color: rgb(102, 102, 51);
+}
+
+ul {
+    color: rgb(51, 153, 255);
+}
+
+.star {
+    color: rgb(36, 206, 135);
+}
+
+#wars {
+    color: rgb(153, 0, 0);
+}
+
+.lists {
+    border: 2px solid black;
+}
